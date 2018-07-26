@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="myprofile">My Profile</string>
+    <string name="events">Events</string>
+    <string name="favourites">Favourites</string>
+    <string name="inbox">Inbox</string>
+    <string name="contactus">Contact Us</string>
+    <string name="feedback">Feed back</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="logout">Log out</string>
+    <string name="myschools">My Schools</string>
+    <string name="howuseit">How to use Application</string>
+    <string name="addschool">Add a school</string>
+    <string name="scula">SCULA</string>
+    <string name="schoolfollow">SCHOOL FOLLOW APP</string>
+    <string name="username">User Name</string>
+</resources>

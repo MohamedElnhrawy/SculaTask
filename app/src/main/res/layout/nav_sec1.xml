@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="RtlCompat"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_home"
+        android:clickable="true"
+        android:focusable="auto"
+        android:background="@drawable/selector"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_home"
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/black_"
+            android:text="@string/home"
+            android:textAlignment="viewStart"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_myprofile"
+        android:clickable="true"
+        android:focusable="auto"
+        android:background="@drawable/selector"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_myprofile"
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/black_"
+            android:text="@string/myprofile"
+            android:textAlignment="viewStart"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_events"
+        android:clickable="true"
+        android:focusable="auto"
+        android:background="@drawable/selector"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_events"
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/black_"
+            android:text="@string/events"
+            android:textAlignment="viewStart"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_favourites"
+        android:clickable="true"
+        android:focusable="auto"
+        android:background="@drawable/selector"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_favourite"
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/black_"
+            android:text="@string/favourites"
+            android:textAlignment="viewStart"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_inbox"
+        android:clickable="true"
+        android:focusable="auto"
+        android:background="@drawable/selector"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_inbox"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_inbox"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/tv_inbox_notification"
+            android:id="@+id/tv_inbox"
+            android:layout_toEndOf="@+id/iv_inbox"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/black_"
+            android:text="@string/inbox"
+            android:textAlignment="viewStart"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_inbox_notification"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+             android:background="@drawable/noborder_circle_img"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
